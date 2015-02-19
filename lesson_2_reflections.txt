@@ -44,3 +44,13 @@ where you decided to try something new or add something experimental, etc,
 without having to change your entire project if you don't want to.
 They can also be helpful in boosting confidence that you're project won't
 break all the way through if your experimental change doesn't work.
+NOTE: see branch log with command git log --graph --oneline <branch1>
+<branch2>
+NOTE: git checkout -b <new-branch-name> also creates new branch
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams of branches help you visualize the structure by showing what
+changes were made where, what similarities each branch has with the other
+branches, which things are separate, etc. It makes it much easier to
+follow what you've done.
