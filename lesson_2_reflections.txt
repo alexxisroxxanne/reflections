@@ -15,4 +15,16 @@ The staging area is where your files go when you run the command git
 add; it is the in-between area of a directory and a commit. You don't
 need to put all of the files in your working directory (e.g. reflections)
 into the staging area, but all of the files in the staging area come
-from your working directory.
+from your working directory. NOTE: git diff with no arguments shows
+difference between working directory and staging area. git diff --staged
+shows difference between staging area and what you would be commiting.
+git reset --hard removes un-commited changes.
+
+How can you use the staging area to make sure you have one commit per
+logical change?
+
+With all the different commands you can run in the staging area,
+you can see the differences between the change(s) you want to commit,
+the previous commits, the differences between your staging area and
+your working directory, and the previous changes. You can use these
+tools to make sure you have one commit per logical change.
