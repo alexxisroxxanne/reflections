@@ -28,3 +28,19 @@ you can see the differences between the change(s) you want to commit,
 the previous commits, the differences between your staging area and
 your working directory, and the previous changes. You can use these
 tools to make sure you have one commit per logical change.
+NOTE: git branch <new-branch-name> creates new branch. Run git checkout
+<new-branch-name> to switch to new branch.
+
+What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+
+Branches ( to be clear ) are commits that don't follow a linear pattern
+of changes. For example, I just changed the game file for the
+asteroids game to have a branch called easy mode. You can check out
+and change branches without affecting the others. The default branch
+is the master branch. Anywho, branches can defnitely be helpful in
+keeping your history organized because you can see edifferent places
+where you decided to try something new or add something experimental, etc,
+without having to change your entire project if you don't want to.
+They can also be helpful in boosting confidence that you're project won't
+break all the way through if your experimental change doesn't work.
