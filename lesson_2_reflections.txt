@@ -1,0 +1,18 @@
+What happens when you initialize a repositor? Why do you need to do it?
+
+When you use the command git init, you create a git respository of a
+directory. You can use the command git status to track the git status of
+a directory. No commits are listed when a repository is created, as you
+are responsible for creating commits yourself. You should do this when
+you want to track the history of your files. For example, these
+reflections
+are now being tracked in a git repository as a way of learning.
+
+How is the staging area different from the working directory and the
+repository? What value do you think it offers?
+
+The staging area is where your files go when you run the command git
+add; it is the in-between area of a directory and a commit. You don't
+need to put all of the files in your working directory (e.g. reflections)
+into the staging area, but all of the files in the staging area come
+from your working directory.
