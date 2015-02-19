@@ -1,0 +1,63 @@
+How did viewing a diff between two versions of a file help you see the bug
+that was introduced?
+
+The diff prompt in command line can be used to see differences in files
+which is useful in comparing versions of a document
+It shows what's been added and what's been subtracted and what's the same
+so, if there is a bug in the new version, you can find if it was
+because of a typo or something along those lines
+or you see your old code and use that again to see if that repairs
+the new code. Most importantly, however, is the fact that the
+command line shows you these differences automatically
+so, rather than going through your code line by line,
+you can find bugs much faster and with greater accuracy.
+
+How could having easy access to the entire history of a file make you a more efficient
+programmer in the long term?
+
+In the long term, it is likely that you will reuse code from time to time, even if 
+it’s been changed from something in a particular document. For example,
+in iOS, you may decide not to use a TableView for your current app, but, as it takes
+awhile to write out good code for a TableView, you could go back into the saved
+history and find your old TableView for your new app where you are actually going to use
+it.
+
+What do you think are the pros and cons of manually choosing when to create a commit,
+like you do in Git, vs. having versions automatically saved, like Google docs does?
+
+Note: commits are versions saved in git of your code that have some sort of meaningful
+change documented to explain the version (e.g. “fixed typos in paragraph” or
+“added infinite scrolling”).
+Manually choosing when to create a commit is helpful because your code will be saved
+in a meaningful place, rather than at some odd and not useful location. However,
+you may forget to save often enough or may save too often.
+Note 2: Repository = every file in a group (css and html) that is saved in one commit
+
+Why do you think some version control systems, like Git, allow saving multiple files
+in one commit, while others, like Google Docs, treat each file separately?
+
+Git is used for code, which often has several files (different class files, headers,
+HTML + CSS + JS, etc.), so it makes a lot of sense that Git would save all the files
+in one commit. You can track the separate file changes separately as well as together.
+Google Docs is usually comprised of documents, like word documents, that are
+fully independent of each other, and therefore do not need to be related to other docs.
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log shows the commits (versions) of your project and gives each commit
+a unique ID and shows the comment (change) included with it. This is how you can see
+what you did in general. Git diff is used to compare two different versions of your
+code, and it tracks the number of changes and shows the added and removed code.
+
+How might version control make you more confident to make changes that could break
+something?
+
+Noting that you can view older versions etc. using the command git checkout followed by
+the id of the older version and then, say, refreshing your browser, version control
+can definitely help you become more confident in making changes that could break something
+because you can simply revert those changes and return to the version of the project
+that didn’t have that bug.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to use it for my projects with Udacity and maybe for school as well.
