@@ -54,3 +54,16 @@ Diagrams of branches help you visualize the structure by showing what
 changes were made where, what similarities each branch has with the other
 branches, which things are separate, etc. It makes it much easier to
 follow what you've done.
+NOTE: merging combines branches
+NOTE: use command git merge <branch1> <branch2> to merge branches
+NOTE: delete branch after merging - doesn't delete contents, just label
+NOTE: use git show commit_id to find parent of commit in merged file
+NOTE: use git branch -d <branch_name> to delete a branch
+
+What is the result of merging two branches together? Why do we represent
+it in the diagram the way we do?
+
+Merging two branches together has the effect of adding the changes from
+both branches into one entity. The diagram represents this similarly
+to a merge on a street, and this is so you can see what changes
+were made in which branch when you go back through.
