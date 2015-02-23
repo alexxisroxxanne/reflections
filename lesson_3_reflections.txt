@@ -5,3 +5,11 @@ Using a remote repository would be very useful in situations where you
 may be using multiple computers or where there are several people working
 on the same project. This way, everyone/all computers may access the most
 up to date version of the project.
+
+Why might you want to always pull changes manually rather than having
+Git automatically stay up-to-date with your remote repository?
+
+Considering the fact that multiple people may be working on one project,
+it makes sense that remote repositories use a manual update rather
+than an automatic one - perhaps you need to collaborate with your partner
+before accepting their changes.
