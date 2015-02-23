@@ -67,3 +67,12 @@ Merging two branches together has the effect of adding the changes from
 both branches into one entity. The diagram represents this similarly
 to a merge on a street, and this is so you can see what changes
 were made in which branch when you go back through.
+
+What are the pros and cons of Git's automatic merging vs. always doing
+merges manually?
+
+The pros of the automatic merging are that, most of the time, you
+can save a lot of time and effort in merging two branches together.
+The cons can be that any conflict in merging has to be dealt with but
+Git cannot do this. Manual merging takes more time but is generally
+going to produce the correct result.
