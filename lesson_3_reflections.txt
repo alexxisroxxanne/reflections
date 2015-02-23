@@ -13,3 +13,13 @@ Considering the fact that multiple people may be working on one project,
 it makes sense that remote repositories use a manual update rather
 than an automatic one - perhaps you need to collaborate with your partner
 before accepting their changes.
+
+Describe the differences between forks, clones, and branches. When
+would you use one instead of another?
+
+A branch is a part of a single file or repository. A clone is a copy
+of a repository, perhaps in a different location. A fork is a clone
+but is specifically on GitHub and it contains a link to the original,
+which is usually created by someone else. If you choose to edit a fork
+on your own computer (not on GitHub) you must create a clone because
+forks only exist on GitHub.
