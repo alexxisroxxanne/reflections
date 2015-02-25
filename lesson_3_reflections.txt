@@ -31,3 +31,15 @@ The benefits of this are that you can compare your local version
 of the repository with the updated remote version offline. You do not
 need to accept the changes of the remote copy if you simply store the
 remote copy.
+
+How would you collaborate without using Git or GitHub? What would be
+easier, and what would be harder?
+
+To collaborate without using either of these, you would need to manually
+send your partners each change and updated version, by email or other-
+wise. The easier part would be that you would be communicating with your
+partner(s) to a much greater extent, which can be really helpful when
+collaborating. However, Git and GitHub are designed for version control,
+and GitHub especially designed for collaborative version control, so the
+abilities that you have with it (such as pull requests) make using Git and
+GitHub the better option, in my opinion.
