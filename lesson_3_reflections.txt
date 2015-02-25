@@ -23,3 +23,11 @@ but is specifically on GitHub and it contains a link to the original,
 which is usually created by someone else. If you choose to edit a fork
 on your own computer (not on GitHub) you must create a clone because
 forks only exist on GitHub.
+
+What is the benefit of having a copy of the last known state of the
+remote stored locally?
+
+The benefits of this are that you can compare your local version
+of the repository with the updated remote version offline. You do not
+need to accept the changes of the remote copy if you simply store the
+remote copy.
