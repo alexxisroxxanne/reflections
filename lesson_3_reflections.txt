@@ -43,3 +43,16 @@ collaborating. However, Git and GitHub are designed for version control,
 and GitHub especially designed for collaborative version control, so the
 abilities that you have with it (such as pull requests) make using Git and
 GitHub the better option, in my opinion.
+
+When would you want to make changes in a separate branch rather than
+directly in master? What benefits does each approach have?
+
+You definitely want to make changes in a separate branch if you are
+collaborating with someone else on a project because you do not want
+to interrupt anyone else's workflow. Additionally, you should use a
+separate branch if you want to try adding an experimental feature but
+don't want to mess up your whole project. When you are not collaborating
+or creating an experimental feature, however, it is generally better
+(as far as I can tell) to make changes directly to master (unless it's
+something like the "easy-mode" also!) because your commits to master
+are much less complicated to make and push/pull.
